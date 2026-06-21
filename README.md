@@ -33,6 +33,17 @@ Download and place in `ComfyUI/models/`:
 - **ZIMG** — Text-to-Image. Enter a prompt, pick a resolution, generate.
 - **Z-I2I** — Image-to-Image. Load an image, adjust denoise strength, generate.
 
+## LoRA support
+
+Up to 3 LoRAs supported. Place your LoRA files in:
+
+| Platform | Path |
+|---|---|
+| Standard | `ComfyUI/models/loras/` |
+| Windows (ComfyUI Desktop) | `%AppData%\Local\Comfy-Desktop\ComfyUI-Shared\models\loras` |
+
+Trigger words for each LoRA are loaded from `config.json` and can be customized from the node settings.
+
 ---
 
 **Original author**: [yanokusnir-ai](https://github.com/yanokusnir-ai) — creator of the FLUX.2 [klein] custom node from which this project was adapted.
