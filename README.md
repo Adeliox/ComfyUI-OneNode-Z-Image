@@ -2,39 +2,39 @@
 
 [![ComfyUI](https://img.shields.io/badge/ComfyUI-custom--node-%23f0ad4e)](https://github.com/comfyanonymous/ComfyUI)
 
-> **Un nodo, tutto quello che serve per Z-Image Turbo.**  
-> Nessun grafo di nodi, nessuno spaghetti — prompt, genera, fatto.
+> **One node, everything you need for Z-Image Turbo.**  
+> No node graph, no spaghetti — prompt, generate, done.
 
 ![screenshot](screenshot.png)
 
 ---
 
-## Installazione
+## Installation
 
 ```bash
 cd ComfyUI/custom_nodes/
 git clone https://github.com/Adeliox/ComfyUI-OneNode-Z-Image.git
 ```
 
-Riavvia ComfyUI. Il nodo si trova nel menu con `click destro → Add Node → ZImageOneNode`.
+Restart ComfyUI. The node is in the menu under `right click → Add Node → ZImageOneNode`.
 
-## Modelli necessari
+## Required models
 
-Scarica e metti in `ComfyUI/models/`:
+Download and place in `ComfyUI/models/`:
 
-| Modello | Cartella | Link |
+| Model | Folder | Link |
 |---|---|---|
 | Z-Image Turbo UNET | `models/diffusion_models/` | [HuggingFace](https://huggingface.co/zerointensity/z-image-turbo) |
 | Qwen 3.4B text encoder | `models/text_encoders/` | [HuggingFace](https://huggingface.co/zerointensity/z-image-turbo) |
 | ae.safetensors (VAE) | `models/vae/` | [HuggingFace](https://huggingface.co/zerointensity/z-image-turbo) |
 
-## Come si usa
+## Usage
 
-- **ZIMG** — Text-to-Image. Scrivi un prompt, scegli la risoluzione, genera.
-- **Z-I2I** — Image-to-Image. Carica un'immagine, regola la forza (denoise), genera.
+- **ZIMG** — Text-to-Image. Enter a prompt, pick a resolution, generate.
+- **Z-I2I** — Image-to-Image. Load an image, adjust denoise strength, generate.
 
 ---
 
-**Autore originale**: [yanokusnir-ai](https://github.com/yanokusnir-ai) — creatore del nodo FLUX.2 [klein] da cui questo progetto è stato adattato.
+**Original author**: [yanokusnir-ai](https://github.com/yanokusnir-ai) — creator of the FLUX.2 [klein] custom node from which this project was adapted.
 
-**Adattamento Z-Image e semplificazione**: Adeliox
+**Z-Image adaptation & simplification**: Adeliox
